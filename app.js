@@ -22,6 +22,8 @@ const renderLeads = () =>{
 ulEl.innerHTML = listItems;
 }
 
+
+
 //sets current leads based on local storage 
 if(leadsFromLocalStorage){
     myLeads = leadsFromLocalStorage
@@ -44,5 +46,3 @@ deleteBtn.addEventListener('click',()=>{
     localStorage.clear()
 
 })
-
-
