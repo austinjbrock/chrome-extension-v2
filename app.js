@@ -30,7 +30,7 @@ if(leadsFromLocalStorage){
     renderLeads()
 }
 
-//Grabs user input from for and renders to screen
+//Grabs user input and renders to screen
 inputBtn.addEventListener('click',() =>{
     myLeads.push(inputEl.value)
     inputEl.value = '';
